@@ -92,7 +92,7 @@ To get CRISPRedict up and running locally, follow these steps:
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/SaraAljamal/CRISPRedict/tree/main
+    git clone (https://github.com/SaraAljamal/CRISPRedict)
     cd project-name
     ```
 
@@ -131,5 +131,5 @@ For any questions or inquiries, please reach out to:
 [Sama Alqaisi] - [samaalqaisi35@gmail.com]
 
 
-Project Link: (https://github.com/SaraAljamal/CRISPRedict/tree/main)
+Project Link: (https://github.com/SaraAljamal/CRISPRedict)
 
