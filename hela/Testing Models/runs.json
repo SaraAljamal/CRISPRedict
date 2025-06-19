@@ -1,0 +1,227 @@
+[
+  {
+    "Model:": "MLP",
+    "Run_id": 1,
+    "Data": "Augmented Data",
+    "Encoding Method": "One Hot Encoding",
+    "Feature Engineering": "With Feature Engineering",
+    "Hyperparameters": {
+      "epochs": 600,
+      "batch_size": 32,
+      "learning_rate": 0.0001
+    },
+    "Evaluation Metrics": {
+      "MSE": 0.0053151997328924555,
+      "RMSE": 0.07290541634811816,
+      "MAE": 0.05492954182089563,
+      "R2": 0.8395517392975574,
+      "Spearman": 0.8603969097919518
+    },
+    "Plots": {
+      "Loss Curve": "/Users/LENOVO/OneDrive/Desktop/hela\\Testing Models\\Loss Curve_run1.png",
+      "Predicted vs. True Distribution": "/Users/LENOVO/OneDrive/Desktop/hela\\Testing Models\\Predicted vs. True Distribution_run1.png"
+    },
+    "Model Architecture": "/Users/LENOVO/OneDrive/Desktop/hela\\Testing Models\\model_architecture_run_1.txt",
+    "Model Path": "/Users/LENOVO/OneDrive/Desktop/hela\\Testing Models\\model_run_1.keras"
+  },
+  {
+    "Model:": "MLP",
+    "Run_id": 2,
+    "Data": "Augmented Data",
+    "Encoding Method": "K-mers Encoding",
+    "Feature Engineering": "With Feature Engineering",
+    "Hyperparameters": {
+      "epochs": 600,
+      "batch_size": 32,
+      "learning_rate": 0.0001
+    },
+    "Evaluation Metrics": {
+      "MSE": 0.01449463475393729,
+      "RMSE": 0.12039366575504415,
+      "MAE": 0.09332607929939964,
+      "R2": 0.5624550247106452,
+      "Spearman": 0.6656733043300801
+    },
+    "Plots": {
+      "Loss Curve": "/Users/LENOVO/OneDrive/Desktop/hela\\Testing Models\\Loss Curve_run2.png",
+      "Predicted vs. True Distribution": "/Users/LENOVO/OneDrive/Desktop/hela\\Testing Models\\Predicted vs. True Distribution_run2.png"
+    },
+    "Model Architecture": "/Users/LENOVO/OneDrive/Desktop/hela\\Testing Models\\model_architecture_run_2.txt",
+    "Model Path": "/Users/LENOVO/OneDrive/Desktop/hela\\Testing Models\\model_run_2.keras"
+  },
+  {
+    "Model:": "MLP + Attention",
+    "Run_id": 3,
+    "Data": "Augmented Data",
+    "Encoding Method": "1 Hot Encoding + PE",
+    "Feature Engineering": "With Feature Engineering",
+    "Hyperparameters": {
+      "epochs": 600,
+      "batch_size": 32,
+      "learning_rate": 0.0001
+    },
+    "Evaluation Metrics": {
+      "MSE": 0.004488374971063475,
+      "RMSE": 0.06699533544257745,
+      "MAE": 0.049360324658237156,
+      "R2": 0.8645108380347517,
+      "Spearman": 0.8888604091249717
+    },
+    "Plots": {
+      "Loss Curve": "/Users/LENOVO/OneDrive/Desktop/hela\\Testing Models\\Loss Curve_run3.png",
+      "Predicted vs. True Distribution": "/Users/LENOVO/OneDrive/Desktop/hela\\Testing Models\\Predicted vs. True Distribution_run3.png"
+    },
+    "Model Architecture": "/Users/LENOVO/OneDrive/Desktop/hela\\Testing Models\\model_architecture_run_3.txt",
+    "Model Path": "/Users/LENOVO/OneDrive/Desktop/hela\\Testing Models\\model_run_3.keras"
+  },
+  {
+    "Model:": "CNN",
+    "Run_id": 4,
+    "Data": "Augmented Data",
+    "Encoding Method": "One Hot Encoding",
+    "Feature Engineering": "With Feature Engineering",
+    "Hyperparameters": {
+      "epochs": 600,
+      "batch_size": 32,
+      "learning_rate": 0.0001
+    },
+    "Evaluation Metrics": {
+      "MSE": 0.002481296463182435,
+      "RMSE": 0.049812613494801046,
+      "MAE": 0.03000710560077504,
+      "R2": 0.9250978849692083,
+      "Spearman": 0.9680150435203619
+    },
+    "Plots": {
+      "Loss Curve": "/Users/LENOVO/OneDrive/Desktop/hela\\Testing Models\\Loss Curve_run4.png",
+      "Predicted vs. True Distribution": "/Users/LENOVO/OneDrive/Desktop/hela\\Testing Models\\Predicted vs. True Distribution_run4.png"
+    },
+    "Model Architecture": "/Users/LENOVO/OneDrive/Desktop/hela\\Testing Models\\model_architecture_run_4.txt",
+    "Model Path": "/Users/LENOVO/OneDrive/Desktop/hela\\Testing Models\\model_run_4.keras"
+  },
+  {
+    "Model:": "CNN",
+    "Run_id": 5,
+    "Data": "Augmented Data",
+    "Encoding Method": "K-mers Encoding",
+    "Feature Engineering": "With Feature Engineering",
+    "Hyperparameters": {
+      "epochs": 600,
+      "batch_size": 32,
+      "learning_rate": 0.0001
+    },
+    "Evaluation Metrics": {
+      "MSE": 0.020197352333047206,
+      "RMSE": 0.14211738927044504,
+      "MAE": 0.10744554364532577,
+      "R2": 0.3903088848049101,
+      "Spearman": 0.5818661735786731
+    },
+    "Plots": {
+      "Loss Curve": "/Users/LENOVO/OneDrive/Desktop/hela\\Testing Models\\Loss Curve_run5.png",
+      "Predicted vs. True Distribution": "/Users/LENOVO/OneDrive/Desktop/hela\\Testing Models\\Predicted vs. True Distribution_run5.png"
+    },
+    "Model Architecture": "/Users/LENOVO/OneDrive/Desktop/hela\\Testing Models\\model_architecture_run_5.txt",
+    "Model Path": "/Users/LENOVO/OneDrive/Desktop/hela\\Testing Models\\model_run_5.keras"
+  },
+  {
+    "Model:": "CNN + Attention",
+    "Run_id": 6,
+    "Data": "Augmented Data",
+    "Encoding Method": "1 Hot Encoding + PE",
+    "Feature Engineering": "With Feature Engineering",
+    "Hyperparameters": {
+      "epochs": 600,
+      "batch_size": 32,
+      "learning_rate": 0.0001
+    },
+    "Evaluation Metrics": {
+      "MSE": 0.002115761068273206,
+      "RMSE": 0.045997402842695434,
+      "MAE": 0.02607749394028074,
+      "R2": 0.9361321868366285,
+      "Spearman": 0.9724206420832127
+    },
+    "Plots": {
+      "Loss Curve": "/Users/LENOVO/OneDrive/Desktop/hela\\Testing Models\\Loss Curve_run6.png",
+      "Predicted vs. True Distribution": "/Users/LENOVO/OneDrive/Desktop/hela\\Testing Models\\Predicted vs. True Distribution_run6.png"
+    },
+    "Model Architecture": "/Users/LENOVO/OneDrive/Desktop/hela\\Testing Models\\model_architecture_run_6.txt",
+    "Model Path": "/Users/LENOVO/OneDrive/Desktop/hela\\Testing Models\\model_run_6.keras"
+  },
+  {
+    "Model:": "BiLSTM",
+    "Run_id": 7,
+    "Data": "Augmented Data",
+    "Encoding Method": "One Hot Encoding",
+    "Feature Engineering": "With Feature Engineering",
+    "Hyperparameters": {
+      "epochs": 350,
+      "batch_size": 32,
+      "learning_rate": 0.0001
+    },
+    "Evaluation Metrics": {
+      "MSE": 0.0013046989494585335,
+      "RMSE": 0.03612061668159243,
+      "MAE": 0.021948079666079676,
+      "R2": 0.9606154636324442,
+      "Spearman": 0.9796790433681081
+    },
+    "Plots": {
+      "Loss Curve": "/Users/LENOVO/OneDrive/Desktop/hela\\Testing Models\\Loss Curve_run7.png",
+      "Predicted vs. True Distribution": "/Users/LENOVO/OneDrive/Desktop/hela\\Testing Models\\Predicted vs. True Distribution_run7.png"
+    },
+    "Model Architecture": "/Users/LENOVO/OneDrive/Desktop/hela\\Testing Models\\model_architecture_run_7.txt",
+    "Model Path": "/Users/LENOVO/OneDrive/Desktop/hela\\Testing Models\\model_run_7.keras"
+  },
+  {
+    "Model:": "BiLSTM",
+    "Run_id": 8,
+    "Data": "Augmented Data",
+    "Encoding Method": "K-mers Encoding",
+    "Feature Engineering": "With Feature Engineering",
+    "Hyperparameters": {
+      "epochs": 350,
+      "batch_size": 32,
+      "learning_rate": 0.0001
+    },
+    "Evaluation Metrics": {
+      "MSE": 0.029326572097060806,
+      "RMSE": 0.1712500280206132,
+      "MAE": 0.12914388368828633,
+      "R2": 0.11472800237036807,
+      "Spearman": 0.39397421413144684
+    },
+    "Plots": {
+      "Loss Curve": "/Users/LENOVO/OneDrive/Desktop/hela\\Testing Models\\Loss Curve_run8.png",
+      "Predicted vs. True Distribution": "/Users/LENOVO/OneDrive/Desktop/hela\\Testing Models\\Predicted vs. True Distribution_run8.png"
+    },
+    "Model Architecture": "/Users/LENOVO/OneDrive/Desktop/hela\\Testing Models\\model_architecture_run_8.txt",
+    "Model Path": "/Users/LENOVO/OneDrive/Desktop/hela\\Testing Models\\model_run_8.keras"
+  },
+  {
+    "Model:": "BiLSTM + Attention",
+    "Run_id": 9,
+    "Data": "Augmented Data",
+    "Encoding Method": "1 Hot Encoding + PE",
+    "Feature Engineering": "With Feature Engineering",
+    "Hyperparameters": {
+      "epochs": 350,
+      "batch_size": 32,
+      "learning_rate": 0.0001
+    },
+    "Evaluation Metrics": {
+      "MSE": 0.0012033499533477454,
+      "RMSE": 0.03468933486459124,
+      "MAE": 0.01884831358528625,
+      "R2": 0.9636748538655682,
+      "Spearman": 0.9824526144139379
+    },
+    "Plots": {
+      "Loss Curve": "/Users/LENOVO/OneDrive/Desktop/hela\\Testing Models\\Loss Curve_run9.png",
+      "Predicted vs. True Distribution": "/Users/LENOVO/OneDrive/Desktop/hela\\Testing Models\\Predicted vs. True Distribution_run9.png"
+    },
+    "Model Architecture": "/Users/LENOVO/OneDrive/Desktop/hela\\Testing Models\\model_architecture_run_9.txt",
+    "Model Path": "/Users/LENOVO/OneDrive/Desktop/hela\\Testing Models\\model_run_9.keras"
+  }
+]
