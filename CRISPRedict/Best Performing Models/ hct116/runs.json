@@ -1,0 +1,27 @@
+[
+  {
+    "Model:": "BiLSTM + Attention",
+    "Run_id": 1,
+    "Data": "Augmented Data",
+    "Encoding Method": "1 Hot Encoding + PE",
+    "Feature Engineering": "With Feature Engineering",
+    "Hyperparameters": {
+      "epochs": 250,
+      "batch_size": 32,
+      "learning_rate": 0.0001
+    },
+    "Evaluation Metrics": {
+      "MSE": 0.0008122223175223265,
+      "RMSE": 0.028499514338358935,
+      "MAE": 0.020865404439471345,
+      "R2": 0.9717865183296203,
+      "Spearman": 0.9805176511552423
+    },
+    "Plots": {
+      "Loss Curve": "/Users/LENOVO/OneDrive/Desktop/CRISPR PROJECT\\Best Performing Models/ hct116\\Loss Curve_run1.png",
+      "Predicted vs. True Distribution": "/Users/LENOVO/OneDrive/Desktop/CRISPR PROJECT\\Best Performing Models/ hct116\\Predicted vs. True Distribution_run1.png"
+    },
+    "Model Architecture": "/Users/LENOVO/OneDrive/Desktop/CRISPR PROJECT\\Best Performing Models/ hct116\\model_architecture_run_1.txt",
+    "Model Path": "/Users/LENOVO/OneDrive/Desktop/CRISPR PROJECT\\Best Performing Models/ hct116\\model_run_1.keras"
+  }
+]

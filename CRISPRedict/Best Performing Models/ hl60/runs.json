@@ -1,0 +1,27 @@
+[
+  {
+    "Model:": "CNN",
+    "Run_id": 1,
+    "Data": "Augmented Data",
+    "Encoding Method": "One Hot Encoding",
+    "Feature Engineering": "With Feature Engineering",
+    "Hyperparameters": {
+      "epochs": 400,
+      "batch_size": 32,
+      "learning_rate": 0.0001
+    },
+    "Evaluation Metrics": {
+      "MSE": 0.0008153194090102979,
+      "RMSE": 0.028553798504057176,
+      "MAE": 0.01971781882799249,
+      "R2": 0.9363953316170186,
+      "Spearman": 0.9741127287032173
+    },
+    "Plots": {
+      "Loss Curve": "/Users/LENOVO/OneDrive/Desktop/CRISPR PROJECT\\Best Performing Models/ hl60\\Loss Curve_run1.png",
+      "Predicted vs. True Distribution": "/Users/LENOVO/OneDrive/Desktop/CRISPR PROJECT\\Best Performing Models/ hl60\\Predicted vs. True Distribution_run1.png"
+    },
+    "Model Architecture": "/Users/LENOVO/OneDrive/Desktop/CRISPR PROJECT\\Best Performing Models/ hl60\\model_architecture_run_1.txt",
+    "Model Path": "/Users/LENOVO/OneDrive/Desktop/CRISPR PROJECT\\Best Performing Models/ hl60\\model_run_1.keras"
+  }
+]

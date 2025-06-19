@@ -1,0 +1,27 @@
+[
+  {
+    "Model:": "MLP +ATTENTION",
+    "Run_id": 1,
+    "Data": "Augmented Data",
+    "Encoding Method": "One Hot Encoding",
+    "Feature Engineering": "With Feature Engineering",
+    "Hyperparameters": {
+      "epochs": 400,
+      "batch_size": 32,
+      "learning_rate": 0.0001
+    },
+    "Evaluation Metrics": {
+      "MSE": 0.0007157173463746941,
+      "RMSE": 0.026752894168195974,
+      "MAE": 0.019151363612896204,
+      "R2": 0.9498252374736166,
+      "Spearman": 0.9681626905650522
+    },
+    "Plots": {
+      "Loss Curve": "/Users/LENOVO/OneDrive/Desktop/CRISPR PROJECT\\Best Performing Models/ hek293t\\Loss Curve_run.png",
+      "Predicted vs. True Distribution": "/Users/LENOVO/OneDrive/Desktop/CRISPR PROJECT\\Best Performing Models/ hek293t\\Predicted vs. True Distribution_run1.png"
+    },
+    "Model Architecture": "/Users/LENOVO/OneDrive/Desktop/CRISPR PROJECT\\Best Performing Models/ hek293t\\model_architecture_run_1.txt",
+    "Model Path": "/Users/LENOVO/OneDrive/Desktop/CRISPR PROJECT\\Best Performing Models/ hek293t\\model_run_1.keras"
+  }
+]
