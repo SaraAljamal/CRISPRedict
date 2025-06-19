@@ -77,8 +77,11 @@ CRISPRedict/
 
 
 hct116/ # Contains Jupyter notebook, data, and all testing results for hct116 cell line
+
 hek293t/ # Contains Jupyter notebook, data, and all testing results for hek293t cell line
+
 hela/ # Contains Jupyter notebook, data, and all testing results for hela cell line
+
 hl60/ # Contains Jupyter notebook, data, and all testing results for hl60 cell line
 
 
