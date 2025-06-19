@@ -75,7 +75,11 @@ CRISPRedict/
 
 └── requirements.txt # Lists all necessary Python libraries and their versions.
 
-Cell line testing/ # Contains Jupyter notebooks demonstrating model training and testing for each cell line.
+
+hct116/ # Contains Jupyter notebook, data, and all testing results for hct116 cell line
+hek293t/ # Contains Jupyter notebook, data, and all testing results for hek293t cell line
+hela/ # Contains Jupyter notebook, data, and all testing results for hela cell line
+hl60/ # Contains Jupyter notebook, data, and all testing results for hl60 cell line
 
 
 
