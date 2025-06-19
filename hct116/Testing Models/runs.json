@@ -1,0 +1,227 @@
+[
+  {
+    "Model:": "MLP",
+    "Run_id": 1,
+    "Data": "Augmented Data",
+    "Encoding Method": "One Hot Encoding",
+    "Feature Engineering": "With Feature Engineering",
+    "Hyperparameters": {
+      "epochs": 400,
+      "batch_size": 32,
+      "learning_rate": 0.0001
+    },
+    "Evaluation Metrics": {
+      "MSE": 0.0035118026716910197,
+      "RMSE": 0.059260464659763,
+      "MAE": 0.044985378936384254,
+      "R2": 0.879609039311187,
+      "Spearman": 0.9055263427122757
+    },
+    "Plots": {
+      "Loss Curve": "/Users/LENOVO/OneDrive/Desktop/hct116\\Testing Models\\Loss Curve_run1.png",
+      "Predicted vs. True Distribution": "/Users/LENOVO/OneDrive/Desktop/hct116\\Testing Models\\Predicted vs. True Distribution_run1.png"
+    },
+    "Model Architecture": "/Users/LENOVO/OneDrive/Desktop/hct116\\Testing Models\\model_architecture_run_1.txt",
+    "Model Path": "/Users/LENOVO/OneDrive/Desktop/hct116\\Testing Models\\model_run_1.keras"
+  },
+  {
+    "Model:": "MLP",
+    "Run_id": 2,
+    "Data": "Augmented Data",
+    "Encoding Method": "K-mers Encoding",
+    "Feature Engineering": "With Feature Engineering",
+    "Hyperparameters": {
+      "epochs": 400,
+      "batch_size": 32,
+      "learning_rate": 0.0001
+    },
+    "Evaluation Metrics": {
+      "MSE": 0.010704617744858261,
+      "RMSE": 0.10346312263245422,
+      "MAE": 0.08070662837622397,
+      "R2": 0.6330263017057729,
+      "Spearman": 0.7432031595029119
+    },
+    "Plots": {
+      "Loss Curve": "/Users/LENOVO/OneDrive/Desktop/hct116\\Testing Models\\Loss Curve_run2.png",
+      "Predicted vs. True Distribution": "/Users/LENOVO/OneDrive/Desktop/hct116\\Testing Models\\Predicted vs. True Distribution_run2.png"
+    },
+    "Model Architecture": "/Users/LENOVO/OneDrive/Desktop/hct116\\Testing Models\\model_architecture_run_2.txt",
+    "Model Path": "/Users/LENOVO/OneDrive/Desktop/hct116\\Testing Models\\model_run_2.keras"
+  },
+  {
+    "Model:": "MLP + Attention",
+    "Run_id": 3,
+    "Data": "Augmented Data",
+    "Encoding Method": "1 Hot Encoding + PE",
+    "Feature Engineering": "With Feature Engineering",
+    "Hyperparameters": {
+      "epochs": 400,
+      "batch_size": 32,
+      "learning_rate": 0.0001
+    },
+    "Evaluation Metrics": {
+      "MSE": 0.002251585335306279,
+      "RMSE": 0.04745087286137399,
+      "MAE": 0.03681380941078286,
+      "R2": 0.9228115737323479,
+      "Spearman": 0.9355661145596286
+    },
+    "Plots": {
+      "Loss Curve": "/Users/LENOVO/OneDrive/Desktop/hct116\\Testing Models\\Loss Curve_run3.png",
+      "Predicted vs. True Distribution": "/Users/LENOVO/OneDrive/Desktop/hct116\\Testing Models\\Predicted vs. True Distribution_run3.png"
+    },
+    "Model Architecture": "/Users/LENOVO/OneDrive/Desktop/hct116\\Testing Models\\model_architecture_run_3.txt",
+    "Model Path": "/Users/LENOVO/OneDrive/Desktop/hct116\\Testing Models\\model_run_3.keras"
+  },
+  {
+    "Model:": "CNN",
+    "Run_id": 4,
+    "Data": "Augmented Data",
+    "Encoding Method": "One-hot Encoding",
+    "Feature Engineering": "With Feature Engineering",
+    "Hyperparameters": {
+      "epochs": 400,
+      "batch_size": 32,
+      "learning_rate": 0.0001
+    },
+    "Evaluation Metrics": {
+      "MSE": 0.0012582690499394142,
+      "RMSE": 0.035472088322220534,
+      "MAE": 0.024805959165153105,
+      "R2": 0.9568642563694324,
+      "Spearman": 0.9728294379099612
+    },
+    "Plots": {
+      "Loss Curve": "/Users/LENOVO/OneDrive/Desktop/hct116\\Testing Models\\Loss Curve_run4.png",
+      "Predicted vs. True Distribution": "/Users/LENOVO/OneDrive/Desktop/hct116\\Testing Models\\Predicted vs. True Distribution_run4.png"
+    },
+    "Model Architecture": "/Users/LENOVO/OneDrive/Desktop/hct116\\Testing Models\\model_architecture_run_4.txt",
+    "Model Path": "/Users/LENOVO/OneDrive/Desktop/hct116\\Testing Models\\model_run_4.keras"
+  },
+  {
+    "Model:": "CNN",
+    "Run_id": 5,
+    "Data": "Augmented Data",
+    "Encoding Method": "K-mers Encoding",
+    "Feature Engineering": "With Feature Engineering",
+    "Hyperparameters": {
+      "epochs": 400,
+      "batch_size": 32,
+      "learning_rate": 0.0001
+    },
+    "Evaluation Metrics": {
+      "MSE": 0.0166167583500135,
+      "RMSE": 0.12890600587254847,
+      "MAE": 0.09715183672867622,
+      "R2": 0.4303474060720255,
+      "Spearman": 0.6252819270757145
+    },
+    "Plots": {
+      "Loss Curve": "/Users/LENOVO/OneDrive/Desktop/hct116\\Testing Models\\Loss Curve_run5.png",
+      "Predicted vs. True Distribution": "/Users/LENOVO/OneDrive/Desktop/hct116\\Testing Models\\Predicted vs. True Distribution_run5.png"
+    },
+    "Model Architecture": "/Users/LENOVO/OneDrive/Desktop/hct116\\Testing Models\\model_architecture_run_5.txt",
+    "Model Path": "/Users/LENOVO/OneDrive/Desktop/hct116\\Testing Models\\model_run_5.keras"
+  },
+  {
+    "Model:": "CNN + Attention",
+    "Run_id": 6,
+    "Data": "Augmented Data",
+    "Encoding Method": "One-hot Encoding",
+    "Feature Engineering": "With Feature Engineering",
+    "Hyperparameters": {
+      "epochs": 400,
+      "batch_size": 32,
+      "learning_rate": 0.0001
+    },
+    "Evaluation Metrics": {
+      "MSE": 0.0011723144350531188,
+      "RMSE": 0.03423907760225323,
+      "MAE": 0.02304076647554254,
+      "R2": 0.9598109363595172,
+      "Spearman": 0.97817580166214
+    },
+    "Plots": {
+      "Loss Curve": "/Users/LENOVO/OneDrive/Desktop/hct116\\Testing Models\\Loss Curve_run6.png",
+      "Predicted vs. True Distribution": "/Users/LENOVO/OneDrive/Desktop/hct116\\Testing Models\\Predicted vs. True Distribution_run6.png"
+    },
+    "Model Architecture": "/Users/LENOVO/OneDrive/Desktop/hct116\\Testing Models\\model_architecture_run_6.txt",
+    "Model Path": "/Users/LENOVO/OneDrive/Desktop/hct116\\Testing Models\\model_run_6.keras"
+  },
+  {
+    "Model:": "BiLSTM",
+    "Run_id": 7,
+    "Data": "Augmented Data",
+    "Encoding Method": "One Hot Encoding",
+    "Feature Engineering": "With Feature Engineering",
+    "Hyperparameters": {
+      "epochs": 250,
+      "batch_size": 32,
+      "learning_rate": 0.0001
+    },
+    "Evaluation Metrics": {
+      "MSE": 0.0012305236413933615,
+      "RMSE": 0.03507882041051782,
+      "MAE": 0.02711817646766508,
+      "R2": 0.9578154192626352,
+      "Spearman": 0.9752982135262689
+    },
+    "Plots": {
+      "Loss Curve": "/Users/LENOVO/OneDrive/Desktop/hct116\\Testing Models\\Loss Curve_run7.png",
+      "Predicted vs. True Distribution": "/Users/LENOVO/OneDrive/Desktop/hct116\\Testing Models\\Predicted vs. True Distribution_run7.png"
+    },
+    "Model Architecture": "/Users/LENOVO/OneDrive/Desktop/hct116\\Testing Models\\model_architecture_run_7.txt",
+    "Model Path": "/Users/LENOVO/OneDrive/Desktop/hct116\\Testing Models\\model_run_7.keras"
+  },
+  {
+    "Model:": "BiLSTM",
+    "Run_id": 8,
+    "Data": "Augmented Data",
+    "Encoding Method": "K-mers Encoding",
+    "Feature Engineering": "With Feature Engineering",
+    "Hyperparameters": {
+      "epochs": 250,
+      "batch_size": 32,
+      "learning_rate": 0.0001
+    },
+    "Evaluation Metrics": {
+      "MSE": 0.026597105609692914,
+      "RMSE": 0.163086190738802,
+      "MAE": 0.12559933559838637,
+      "R2": 0.0882030127419201,
+      "Spearman": 0.36456568285096164
+    },
+    "Plots": {
+      "Loss Curve": "/Users/LENOVO/OneDrive/Desktop/hct116\\Testing Models\\Loss Curve_run8.png",
+      "Predicted vs. True Distribution": "/Users/LENOVO/OneDrive/Desktop/hct116\\Testing Models\\Predicted vs. True Distribution_run8.png"
+    },
+    "Model Architecture": "/Users/LENOVO/OneDrive/Desktop/hct116\\Testing Models\\model_architecture_run_8.txt",
+    "Model Path": "/Users/LENOVO/OneDrive/Desktop/hct116\\Testing Models\\model_run_8.keras"
+  },
+  {
+    "Model:": "BiLSTM + Attention",
+    "Run_id": 9,
+    "Data": "Augmented Data",
+    "Encoding Method": "1 Hot Encoding + PE",
+    "Feature Engineering": "With Feature Engineering",
+    "Hyperparameters": {
+      "epochs": 250,
+      "batch_size": 32,
+      "learning_rate": 0.0001
+    },
+    "Evaluation Metrics": {
+      "MSE": 0.0008481720072423161,
+      "RMSE": 0.029123392783848453,
+      "MAE": 0.021634334302136404,
+      "R2": 0.9709231262894131,
+      "Spearman": 0.9810767172927134
+    },
+    "Plots": {
+      "Loss Curve": "/Users/LENOVO/OneDrive/Desktop/hct116\\Testing Models\\Loss Curve_run9.png",
+      "Predicted vs. True Distribution": "/Users/LENOVO/OneDrive/Desktop/hct116\\Testing Models\\Predicted vs. True Distribution_run9.png"
+    },
+    "Model Architecture": "/Users/LENOVO/OneDrive/Desktop/hct116\\Testing Models\\model_architecture_run_9.txt",
+    "Model Path": "/Users/LENOVO/OneDrive/Desktop/hct116\\Testing Models\\model_run_9.keras"
+  }
+]
