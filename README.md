@@ -131,5 +131,5 @@ For any questions or inquiries, please reach out to:
 [Sama Alqaisi] - [samaalqaisi35@gmail.com]
 
 
-Project Link: [[https://github.com/yourusername/project-name]](https://github.com/SaraAljamal/CRISPRedict/tree/main)
+Project Link: (https://github.com/SaraAljamal/CRISPRedict/tree/main)
 
