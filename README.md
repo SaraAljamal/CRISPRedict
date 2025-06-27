@@ -100,8 +100,9 @@ To get CRISPRedict up and running locally, follow these steps:
 1.  **Clone the repository:**
     ```bash
     git clone (https://github.com/SaraAljamal/CRISPRedict)
-    cd project-name
+    cd CRISPRedict 
     ```
+    NOTE: You might need to do cd CRISPRedict twice
 
 2. **Install dependencies:**
     All required libraries are listed in `requirements.txt`.
